@@ -1,3 +1,4 @@
-export const HouseView = /*html*/`
-jgfknfdnjkdfakjfgvdf
-`
+import { AppState } from "../AppState.js";
+
+// export const HouseView = /*html*/`
+// `
