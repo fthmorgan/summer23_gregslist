@@ -4,6 +4,7 @@ import { HomeController } from "./controllers/HomeController.js";
 import { ValuesController } from "./controllers/ValuesController.js";
 import { AboutView } from "./views/AboutView.js";
 import { CarView } from "./views/CarView.js";
+import { HousesController } from "./controllers/HousesController.js";
 
 
 export const router = [
@@ -26,7 +27,10 @@ export const router = [
     path: '#/cars',
     controller: CarsController,
     view: CarView
+  },
+  {
+    path: '#/houses',
+    controller: HousesController,
+    view: HouseView
   }
-
-  // FIXME write a new object that will load a housescontroller when you navigate to it
 ]
