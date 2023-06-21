@@ -4,6 +4,7 @@ import { HomeController } from "./controllers/HomeController.js";
 import { ValuesController } from "./controllers/ValuesController.js";
 import { AboutView } from "./views/AboutView.js";
 import { CarView } from "./views/CarView.js";
+import { HouseView } from "./views/HouseView.js"
 import { HousesController } from "./controllers/HousesController.js";
 
 
