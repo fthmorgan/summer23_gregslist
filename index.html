@@ -14,8 +14,27 @@
   <link rel="stylesheet" href="assets/style/style.css">
   <title>gregslist</title>
 </head>
+<style>
+  body.debug .container,
+  body.debug .container-fluid {
+    outline: 2px double blue;
+    outline-offset: -2px;
+  }
 
-<body>
+  body.debug .row {
+    outline: 2px dashed red;
+    outline-offset: -2px;
+  }
+
+  body.debug [class*="col-"] {
+    outline: 2px dotted forestgreen;
+    outline-offset: -3px;
+  }
+</style>
+
+
+
+<body class="debug">
   <!-- SECTION -->
   <header>
     <nav class="navbar navbar-dark navbar-expand bg-dark text-light no-select">
@@ -88,36 +107,29 @@
             </div>
           </section>
         </div> -->
-    <section class="row container-fluid">
-      <div class="col-10">
-        <div class="row">
-          <div class="col-4">
-            <img src="${Appstate.imgUrl}" alt="${Appstate.name}">
-          </div>
-        </div>
-        <div class="row">
-          <h1>
-            House Listing
-          </h1>
+
+
+
+    <div id="houseListings" class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <section class="row bg-light elevation-5">
+            <div class="col-4 p-0">
+              <img class="img-fluid house-img"
+                src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1470&amp;q=80/">
+            </div>
+            <div class="col-8">
+              <h1>Price: 350000</h1>
+              <h2>1974</h2>
+              <h4>3</h4>
+              <h4>2.5</h4>
+              <h5>1400</h5>
+              <p>Newly renovated mid-century modern home</p>
+            </div>
+          </section>
         </div>
       </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </section>
+    </div>
   </main>
 
   <!-- SECTION -->

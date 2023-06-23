@@ -27,7 +27,7 @@ class ObservableAppState extends EventEmitter {
       sqft: 1400,
       price: 350000,
       description: 'Newly renovated mid-century modern home',
-      imgUrl: 'https://rew-feed-images.global.ssl.fastly.net/imls/_cloud_media/property/residentialincome/98862307-1-835976ecc96808a93ea194115ae6c537-m.jpg',
+      imgUrl: 'https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
     }),
     new House({
       year: '1974',
@@ -36,7 +36,7 @@ class ObservableAppState extends EventEmitter {
       sqft: 1400,
       price: 350000,
       description: 'Newly renovated mid-century modern home',
-      imgUrl: 'https://rew-feed-images.global.ssl.fastly.net/imls/_cloud_media/property/residentialincome/98862307-1-835976ecc96808a93ea194115ae6c537-m.jpg',
+      imgUrl: 'https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
     }),
     new House({
       year: '1974',
@@ -45,7 +45,7 @@ class ObservableAppState extends EventEmitter {
       sqft: 1400,
       price: 350000,
       description: 'Newly renovated mid-century modern home',
-      imgUrl: 'https://rew-feed-images.global.ssl.fastly.net/imls/_cloud_media/property/residentialincome/98862307-1-835976ecc96808a93ea194115ae6c537-m.jpg',
+      imgUrl: 'https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
     }),
     new House({
       year: '1974',
@@ -54,25 +54,7 @@ class ObservableAppState extends EventEmitter {
       sqft: 1400,
       price: 350000,
       description: 'Newly renovated mid-century modern home',
-      imgUrl: 'https://rew-feed-images.global.ssl.fastly.net/imls/_cloud_media/property/residentialincome/98862307-1-835976ecc96808a93ea194115ae6c537-m.jpg',
-    }),
-    new House({
-      year: '1974',
-      bedrooms: 3,
-      bathrooms: 2.5,
-      sqft: 1400,
-      price: 350000,
-      description: 'Newly renovated mid-century modern home',
-      imgUrl: 'https://rew-feed-images.global.ssl.fastly.net/imls/_cloud_media/property/residentialincome/98862307-1-835976ecc96808a93ea194115ae6c537-m.jpg',
-    }),
-    new House({
-      year: '1974',
-      bedrooms: 3,
-      bathrooms: 2.5,
-      sqft: 1400,
-      price: 350000,
-      description: 'Newly renovated mid-century modern home',
-      imgUrl: 'https://rew-feed-images.global.ssl.fastly.net/imls/_cloud_media/property/residentialincome/98862307-1-835976ecc96808a93ea194115ae6c537-m.jpg',
+      imgUrl: 'https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
     }),
   ]
 
